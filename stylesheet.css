@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 10em 0;
   font-family: Georgia, Palatino, serif;
   text-align: center;
 }
@@ -73,7 +73,6 @@ a {
 }
 
 #main h1 {
-
   font-weight: normal;
 
   letter-spacing: -1px;
