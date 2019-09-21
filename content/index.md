@@ -8,7 +8,7 @@ My name is Leonardo and I'm a software engineer. Here's some of my stuff:
 
 ## [Blog](/blog)
 
-## [CV/Resumé](/cv-2019-09.pdf)
+## [CV/Resumé](/assets/cv-2019-09.pdf)
 
 ## [Github](http://github.com/lbrito1)
 
@@ -17,7 +17,7 @@ My name is Leonardo and I'm a software engineer. Here's some of my stuff:
 ## Conference talks
 
 *   _Programmers find out secret formula for page weight loss and are almost arrested!_ <br>
-    ([The Developer's Conference 2019](http://www.thedevelopersconference.com.br/tdc/2019/florianopolis/trilha-web-frontend) Florianópolis, Brazil) Slides are available [here.](/tdc-1.pptx)
+    ([The Developer's Conference 2019](http://www.thedevelopersconference.com.br/tdc/2019/florianopolis/trilha-web-frontend) Florianópolis, Brazil) Slides are available [here.](/assets/tdc-1.pptx)
 *   _Optimizing a Ruby server with Graph Theory_ <br>
     (The Developer's Conference 2019 Recife, Brazil)
 
