@@ -27,6 +27,7 @@ git checkout $local_development_branch output/
 git checkout $local_development_branch README.md
 cp -r output/* ./
 rm -rf ./output/*
+rm -rf tmp/
 
 # Send changes to remote (production branch)
 git add .
