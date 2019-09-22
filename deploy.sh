@@ -23,7 +23,8 @@ git checkout $local_master_branch
 git rm * -r
 
 # Copy nanoc output to root
-git checkout $local_development_branch output/ README.md
+git checkout $local_development_branch output/
+git checkout $local_development_branch README.md
 cp -r output/* ./
 rm -rf ./output/*
 
