@@ -29,7 +29,7 @@ rm -rf ./output/*
 
 # Send changes to remote (production branch)
 git add .
-git commit -m "Builds blog. (automated commit)"
+git commit -m "Builds site. (automated commit)"
 
 # Push & deploy
 git push $remote $local_master_branch:master
