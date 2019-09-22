@@ -21,13 +21,14 @@ nanoc
 # Switch to Github Pages branch
 git checkout $local_master_branch
 git rm * -r
+git clean -df
 
 # Copy nanoc output to root
 git checkout $local_development_branch output/
 git checkout $local_development_branch README.md
 cp -r output/* ./
 rm -rf ./output/*
-rm -rf tmp/
+rm -rf ./tmp/
 
 # Send changes to remote (production branch)
 git add .
