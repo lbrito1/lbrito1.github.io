@@ -13,29 +13,29 @@ git checkout $local_development_branch
 # Compile output pages/assets
 nanoc
 
-# Update remote
-git add .
-git commit -m "Updates development branch. (automated commit)"
-git push $remote $local_development_branch:development
+# # Update remote
+# git add .
+# git commit -m "Updates development branch. (automated commit)"
+# git push $remote $local_development_branch:development
 
-# Switch to Github Pages branch
-git checkout $local_master_branch
-git rm * -r
-git clean -df
+# # Switch to Github Pages branch
+# git checkout $local_master_branch
+# git rm * -r
+# git clean -df
 
-# Copy nanoc output to root
-git checkout $local_development_branch output/
-git checkout $local_development_branch README.md
-cp -r output/* ./
-rm -rf ./output/*
-rm -rf ./tmp/
+# # Copy nanoc output to root
+# git checkout $local_development_branch output/
+# git checkout $local_development_branch README.md
+# cp -r output/* ./
+# rm -rf ./output/*
+# rm -rf ./tmp/
 
-# Send changes to remote (production branch)
-git add .
-git commit -m "Builds site. (automated commit)"
+# # Send changes to remote (production branch)
+# git add .
+# git commit -m "Builds site. (automated commit)"
 
-# Push & deploy
-git push $remote $local_master_branch:master
+# # Push & deploy
+# git push $remote $local_master_branch:master
 
-# Pop files
-git checkout $local_development_branch
+# # Pop files
+# git checkout $local_development_branch
