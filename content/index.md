@@ -14,7 +14,7 @@ I'm a software engineer/web developer. I enjoy working with Ruby, which is what 
 ### [Sane Blog Builder](https://github.com/lbrito1/sane-blog-builder)
 Really simple static blogging with Ruby.
 
-### [Xadrez Compiler](https://github.com/lbrito1/xadrez-compiler) and [Xadrez Viewer](https://github.com/lbrito1/xadrez-viewer)
+### [En Passant](https://github.com/lbrito1/enpassant)
 Crawls the Xadrez Verbal podcast (a Brazilian podcast on foreign politics) webpage and compiles each week's books/movies/etc recommendations into a single, easily-readable page ([live here](http://enpassant.tk/)).
 
 ### [Huegraph](https://github.com/lbrito1/huegraph)
