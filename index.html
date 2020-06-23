@@ -1,22 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="https://lbrito1-github.matomo.cloud/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/lbrito1-github.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
-
     <meta charset="utf-8">
     <title>Leonardo Brito</title>
     <link rel="stylesheet" href="/assets/picnic.min.css">
@@ -66,4 +50,20 @@ Slides are available <a href="/assets/tdc-2.odp">here.</a></li>
 
     </div>
   </body>
+
+  <script>
+    console.log("Hello! Not to worry, I'm just getting the userAgent, location and IP for this request. You can check the code yourself at https://github.com/lbrito1/sane-tracker-js. Happy coding!")
+    const HOSTNAME = "https://android-analytics.duckdns.org"
+    const PATH = "/update-blog-stats"
+
+    function sane_track() {
+      fetch(HOSTNAME + PATH, {
+        body: "token=M1mI0c53WcDu2FD0EIvQOdNlS9gWQtyh&url=" + window.location,
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        method: "POST"
+      })
+    }
+
+    document.addEventListener("DOMContentLoaded", sane_track);
+  </script>
 </html>
