@@ -11,6 +11,9 @@ I'm a software engineer/web developer. I enjoy working with Ruby, which is what 
 
 ## Side projects
 
+### [Android analytics](https://github.com/lbrito1/android-analytics)
+Simple Google Analytics alternative that runs on an Android phone. In-depth blog post [here](https://lbrito1.github.io/blog/2020/07/replacing_google_analytics_android.html).
+
 ### [Sane Blog Builder](https://github.com/lbrito1/sane-blog-builder)
 Really simple static blogging with Ruby.
 
