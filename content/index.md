@@ -20,7 +20,7 @@ Simple Google Analytics alternative that runs on an Android phone. In-depth blog
 ### [Sane Blog Builder](https://github.com/lbrito1/sane-blog-builder)
 Really simple static blogging with Ruby.
 
-### [En Passant](https://github.com/lbrito1/enpassant) • [_live here_](http://enpassant.tk/)
+### [En Passant](https://github.com/lbrito1/enpassant) • [_live here_](https://lbrito1.github.io/enpassant)
 Crawls the Xadrez Verbal podcast (a Brazilian podcast on foreign politics) webpage and compiles each week's books/movies/etc recommendations into a single, easily-readable page.
 
 ### [Huegraph](https://github.com/lbrito1/huegraph)
