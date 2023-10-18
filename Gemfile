@@ -9,7 +9,6 @@ gem 'awesome_print'
 gem 'sass'
 gem 'rouge'
 gem 'nokogiri'
-gem 'nokogumbo'
 
 group :nanoc do
   gem 'guard-nanoc'
